@@ -1,0 +1,6 @@
+rm -rf ~/WORK/sonic/sonic/data/sonic/carmen ~/WORK/sonic/sonic/data/sonic/chaindata ~/WORK/sonic/sonic/data/sonic/emitter ~/WORK/sonic/sonic/data/sonic/p2p ~/WORK/sonic/sonic/data/sonic/transactions.rlp 
+rm -rf ~/WORK/sonic/sonic/data/v1/carmen ~/WORK/sonic/sonic/data/v1/chaindata ~/WORK/sonic/sonic/data/v1/emitter ~/WORK/sonic/sonic/data/v1/p2p ~/WORK/sonic/sonic/data/v1/transactions.rlp 
+rm -rf ~/WORK/sonic/sonic/data/v2/carmen ~/WORK/sonic/sonic/data/v2/chaindata ~/WORK/sonic/sonic/data/v2/emitter ~/WORK/sonic/sonic/data/v2/p2p ~/WORK/sonic/sonic/data/v2/transactions.rlp 
+rm -rf ~/WORK/sonic/sonic/data/v3/carmen ~/WORK/sonic/sonic/data/v3/chaindata ~/WORK/sonic/sonic/data/v3/emitter ~/WORK/sonic/sonic/data/v3/p2p ~/WORK/sonic/sonic/data/v3/transactions.rlp 
+rm -rf ~/WORK/sonic/sonic/data/v4/carmen ~/WORK/sonic/sonic/data/v4/chaindata ~/WORK/sonic/sonic/data/v4/emitter ~/WORK/sonic/sonic/data/v4/p2p ~/WORK/sonic/sonic/data/v4/transactions.rlp 
+rm -rf ~/WORK/sonic/sonic/data/v5/carmen ~/WORK/sonic/sonic/data/v5/chaindata ~/WORK/sonic/sonic/data/v5/emitter ~/WORK/sonic/sonic/data/v5/p2p ~/WORK/sonic/sonic/data/v5/transactions.rlp 
