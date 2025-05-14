@@ -1,6 +1,6 @@
-rm -rf ~/WORK/sonic/sonic/data/sonic/carmen ~/WORK/sonic/sonic/data/sonic/chaindata ~/WORK/sonic/sonic/data/sonic/emitter ~/WORK/sonic/sonic/data/sonic/p2p ~/WORK/sonic/sonic/data/sonic/transactions.rlp 
-rm -rf ~/WORK/sonic/sonic/data/v1/carmen ~/WORK/sonic/sonic/data/v1/chaindata ~/WORK/sonic/sonic/data/v1/emitter ~/WORK/sonic/sonic/data/v1/p2p ~/WORK/sonic/sonic/data/v1/transactions.rlp 
-rm -rf ~/WORK/sonic/sonic/data/v2/carmen ~/WORK/sonic/sonic/data/v2/chaindata ~/WORK/sonic/sonic/data/v2/emitter ~/WORK/sonic/sonic/data/v2/p2p ~/WORK/sonic/sonic/data/v2/transactions.rlp 
-rm -rf ~/WORK/sonic/sonic/data/v3/carmen ~/WORK/sonic/sonic/data/v3/chaindata ~/WORK/sonic/sonic/data/v3/emitter ~/WORK/sonic/sonic/data/v3/p2p ~/WORK/sonic/sonic/data/v3/transactions.rlp 
-rm -rf ~/WORK/sonic/sonic/data/v4/carmen ~/WORK/sonic/sonic/data/v4/chaindata ~/WORK/sonic/sonic/data/v4/emitter ~/WORK/sonic/sonic/data/v4/p2p ~/WORK/sonic/sonic/data/v4/transactions.rlp 
-rm -rf ~/WORK/sonic/sonic/data/v5/carmen ~/WORK/sonic/sonic/data/v5/chaindata ~/WORK/sonic/sonic/data/v5/emitter ~/WORK/sonic/sonic/data/v5/p2p ~/WORK/sonic/sonic/data/v5/transactions.rlp 
+rm -rf ~/sonic-fork-run/data/sonic/sonic.ipc ~/sonic-fork-run/data/sonic/carmen ~/sonic-fork-run/data/sonic/chaindata ~/sonic-fork-run/data/sonic/emitter ~/sonic-fork-run/data/sonic/p2p ~/sonic-fork-run/data/sonic/transactions.rlp 
+rm -rf ~/sonic-fork-run/data/v1/sonic.ipc ~/sonic-fork-run/data/v1/carmen ~/sonic-fork-run/data/v1/chaindata ~/sonic-fork-run/data/v1/emitter ~/sonic-fork-run/data/v1/p2p ~/sonic-fork-run/data/v1/transactions.rlp 
+rm -rf ~/sonic-fork-run/data/v2/sonic.ipc ~/sonic-fork-run/data/v2/carmen ~/sonic-fork-run/data/v2/chaindata ~/sonic-fork-run/data/v2/emitter ~/sonic-fork-run/data/v2/p2p ~/sonic-fork-run/data/v2/transactions.rlp 
+rm -rf ~/sonic-fork-run/data/v3/sonic.ipc ~/sonic-fork-run/data/v3/carmen ~/sonic-fork-run/data/v3/chaindata ~/sonic-fork-run/data/v3/emitter ~/sonic-fork-run/data/v3/p2p ~/sonic-fork-run/data/v3/transactions.rlp 
+rm -rf ~/sonic-fork-run/data/v4/sonic.ipc ~/sonic-fork-run/data/v4/carmen ~/sonic-fork-run/data/v4/chaindata ~/sonic-fork-run/data/v4/emitter ~/sonic-fork-run/data/v4/p2p ~/sonic-fork-run/data/v4/transactions.rlp 
+rm -rf ~/sonic-fork-run/data/v5/sonic.ipc ~/sonic-fork-run/data/v5/carmen ~/sonic-fork-run/data/v5/chaindata ~/sonic-fork-run/data/v5/emitter ~/sonic-fork-run/data/v5/p2p ~/sonic-fork-run/data/v5/transactions.rlp 
