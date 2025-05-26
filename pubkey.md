@@ -118,3 +118,53 @@ Path of the secret key file: data/v10/keystore/validator/c0049388a870791ef8356df
 - You must NEVER share the secret key with anyone! The key controls access to your validator!
 - You must BACKUP your key file! Without the key, it's impossible to operate the validator!
 - You must REMEMBER your password! Without the password, it's impossible to decrypt the key!
+
+----- v11
+Public key:                  0xc004f9510083fa3da01fb33409a147767e89b1de9b4dd015ccc1258dc1fdf66a9f63c6f42bac3bcafa49681189e49873918b7820feb023ebb679b0f68924e52fa037
+Public address of the key:   0x6652bb0d34E9A771bEBA53e3f433067Dc42E29b9
+Path of the secret key file: data/v11/keystore/validator/c004f9510083fa3da01fb33409a147767e89b1de9b4dd015ccc1258dc1fdf66a9f63c6f42bac3bcafa49681189e49873918b7820feb023ebb679b0f68924e52fa037
+
+- You can share your public key with anyone. Others need it to validate messages from you.
+- You must NEVER share the secret key with anyone! The key controls access to your validator!
+- You must BACKUP your key file! Without the key, it's impossible to operate the validator!
+- You must REMEMBER your password! Without the password, it's impossible to decrypt the key!
+
+----- v12
+Public key:                  0xc00421bb3cbf9f2c21a27a2fff44424e02855798dce8c42838b0be3cee009178492bac9b0bc8259ffdf4e45d4f4c77d0f71693b26de4e7e766deb5a987bf86ecea4b
+Public address of the key:   0xBf0efb1c3177de34F66588400DCE7AA7aA38960f
+Path of the secret key file: data/v12/keystore/validator/c00421bb3cbf9f2c21a27a2fff44424e02855798dce8c42838b0be3cee009178492bac9b0bc8259ffdf4e45d4f4c77d0f71693b26de4e7e766deb5a987bf86ecea4b
+
+- You can share your public key with anyone. Others need it to validate messages from you.
+- You must NEVER share the secret key with anyone! The key controls access to your validator!
+- You must BACKUP your key file! Without the key, it's impossible to operate the validator!
+- You must REMEMBER your password! Without the password, it's impossible to decrypt the key!
+
+----- v13
+Public key:                  0xc004f4be9bc60345156746e8be4728d71e00635ad26338239b7f82bf64b1d192ec8e750ad737740a7758c9214c641fc46d41f8d9580e36c1921e4a913f9554ba93e8
+Public address of the key:   0xF4f8eA51b29115f0C2e1e0F2d97Af9Db39fdC7E8
+Path of the secret key file: data/v13/keystore/validator/c004f4be9bc60345156746e8be4728d71e00635ad26338239b7f82bf64b1d192ec8e750ad737740a7758c9214c641fc46d41f8d9580e36c1921e4a913f9554ba93e8
+
+- You can share your public key with anyone. Others need it to validate messages from you.
+- You must NEVER share the secret key with anyone! The key controls access to your validator!
+- You must BACKUP your key file! Without the key, it's impossible to operate the validator!
+- You must REMEMBER your password! Without the password, it's impossible to decrypt the key!
+
+----- v14
+Public key:                  0xc0041e9cebd5fabf4352717496926725820b33dcf75d4f8c3c5d0c582b9defd05a64a4b05e9ca442fe7f6b530772ecf5713d495ef85c6a72d4d163b710edff2d8a60
+Public address of the key:   0xFC3a10e0641482536D9fA0e9fE3AE31B0beae43A
+Path of the secret key file: data/v14/keystore/validator/c0041e9cebd5fabf4352717496926725820b33dcf75d4f8c3c5d0c582b9defd05a64a4b05e9ca442fe7f6b530772ecf5713d495ef85c6a72d4d163b710edff2d8a60
+
+- You can share your public key with anyone. Others need it to validate messages from you.
+- You must NEVER share the secret key with anyone! The key controls access to your validator!
+- You must BACKUP your key file! Without the key, it's impossible to operate the validator!
+- You must REMEMBER your password! Without the password, it's impossible to decrypt the key!
+
+----- v15
+Public key:                  0xc004ba66af7dc622048439623d8e3ddbec236dd99d3578048943221d5932e2a54e6242cb0c4ea3677e675f8f7f2ec23668be54cf3070181bccf491da93c6535acfde
+Public address of the key:   0xe1c650AC200626C9155A549464b7af89eD7679A4
+Path of the secret key file: data/v15/keystore/validator/c004ba66af7dc622048439623d8e3ddbec236dd99d3578048943221d5932e2a54e6242cb0c4ea3677e675f8f7f2ec23668be54cf3070181bccf491da93c6535acfde
+
+- You can share your public key with anyone. Others need it to validate messages from you.
+- You must NEVER share the secret key with anyone! The key controls access to your validator!
+- You must BACKUP your key file! Without the key, it's impossible to operate the validator!
+- You must REMEMBER your password! Without the password, it's impossible to decrypt the key!
