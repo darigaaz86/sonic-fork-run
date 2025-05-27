@@ -105,3 +105,15 @@ deadcode:
 
 .PHONY: lint
 lint: vet staticcheck deadcode errorcheck
+
+.PHONY: debug
+debug:
+	GIT_COMMIT=`git rev-list -1 HEAD 2>/dev/null || echo ""` && \
+	GIT_DATE=`git log -1 --date=short --pretty=format:%ct 2>/dev/null || echo ""` && \
+	GOPROXY=$(GOPROXY) \
+	go build \
+	    -gcflags "all=-N -l" \
+	    -ldflags "-X github.com/0xsoniclabs/sonic/version.gitCommit=$${GIT_COMMIT} \
+	              -X github.com/0xsoniclabs/sonic/version.gitDate=$${GIT_DATE}" \
+	    -o build/sonicd \
+	    ./cmd/sonicd

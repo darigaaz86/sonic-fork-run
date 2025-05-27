@@ -198,6 +198,11 @@ func initApp() *cli.App {
 			return err
 		}
 
+		// Check if "metrics" flag was explicitly set to true
+		if ctx.IsSet("metrics") && ctx.Bool("metrics") {
+			ethmetrics.Enable()
+		}
+
 		// Start metrics export if enabled
 		err := metrics.SetupMetrics(ctx)
 		if err != nil {
