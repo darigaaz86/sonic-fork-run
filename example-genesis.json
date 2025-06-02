@@ -28,7 +28,7 @@
         "EpochVoteGas": 0,
         "MisbehaviourProofGas": 0
       },
-      "MinGasPrice": 1000000000,
+      "MinGasPrice": 1000,
       "MinBaseFee": 1000,
       "ShortGasPower": {
         "AllocPerSec": 11250000,
