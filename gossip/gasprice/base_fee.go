@@ -94,10 +94,10 @@ func getBaseFeeForNextBlock(parent *evmcore.EvmHeader, rules opera.EconomyRules)
 		newPrice.Add(newPrice, big.NewInt(1))
 	}
 
-	// maxFee := big.NewInt(1e10) // example: 1 ETH
-	// if newPrice.Cmp(maxFee) > 0 {
-	// 	return maxFee
-	// }
+	maxFee := big.NewInt(1e10) // example: 1 ETH
+	if newPrice.Cmp(maxFee) > 0 {
+		return maxFee
+	}
 
 	return newPrice
 }
