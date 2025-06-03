@@ -47,7 +47,8 @@ func MakeNode(ctx *cli.Context, cfg *Config) (*node.Node, *gossip.Service, func(
 		return nil, nil, nil, err
 	}
 
-	engine, dagIndex, gdb, cdb, blockProc, closeDBs, err := integration.MakeEngine(path.Join(cfg.Node.DataDir, "chaindata"), cfg.AppConfigs())
+	_, _, gdb, cdb, blockProc, closeDBs, err := integration.MakeEngine(path.Join(cfg.Node.DataDir, "chaindata"), cfg.AppConfigs())
+	// engine, dagIndex, gdb, cdb, blockProc, closeDBs, err := integration.MakeEngine(path.Join(cfg.Node.DataDir, "chaindata"), cfg.AppConfigs())
 	if err != nil {
 		return nil, nil, nil, fmt.Errorf("failed to make consensus engine: %w", err)
 	}
@@ -130,18 +131,19 @@ func MakeNode(ctx *cli.Context, cfg *Config) (*node.Node, *gossip.Service, func(
 		}
 		return false
 	}
-	svc, err := gossip.NewService(stack, cfg.Opera, gdb, blockProc, engine, dagIndex, newTxPool, haltCheck)
+	svc, err := gossip.NewService(stack, cfg.Opera, gdb, blockProc, nil, nil, newTxPool, haltCheck)
+	// svc, err := gossip.NewService(stack, cfg.Opera, gdb, blockProc, engine, dagIndex, newTxPool, haltCheck)
 	if err != nil {
 		return nil, nil, nil, fmt.Errorf("failed to create the gossip service: %w", err)
 	}
-	err = engine.Bootstrap(svc.GetConsensusCallbacks())
-	if err != nil {
-		return nil, nil, nil, fmt.Errorf("failed to bootstrap the consensus engine: %w", err)
-	}
-	err = engine.Reset(gdb.GetEpoch(), gdb.GetValidators())
-	if err != nil {
-		return nil, nil, nil, fmt.Errorf("failed to reset the consensus engine: %w", err)
-	}
+	// err = engine.Bootstrap(svc.GetConsensusCallbacks())
+	// if err != nil {
+	// 	return nil, nil, nil, fmt.Errorf("failed to bootstrap the consensus engine: %w", err)
+	// }
+	// err = engine.Reset(gdb.GetEpoch(), gdb.GetValidators())
+	// if err != nil {
+	// 	return nil, nil, nil, fmt.Errorf("failed to reset the consensus engine: %w", err)
+	// }
 	svc.ReprocessEpochEvents()
 
 	// commit dbs to avoid dirty state when the rest of the startup fails

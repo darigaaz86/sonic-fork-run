@@ -10,8 +10,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Fantom-foundation/lachesis-base/hash"
-	"github.com/Fantom-foundation/lachesis-base/inter/dag"
+	// "github.com/Fantom-foundation/lachesis-base/hash"
+	// "github.com/Fantom-foundation/lachesis-base/inter/dag"
 	"github.com/Fantom-foundation/lachesis-base/inter/idx"
 	"github.com/Fantom-foundation/lachesis-base/lachesis"
 	"github.com/Fantom-foundation/lachesis-base/utils/workers"
@@ -296,10 +296,10 @@ func newService(config Config, store *Store, blockProc BlockProc, engine lachesi
 
 	// load epoch DB
 	svc.store.loadEpochStore(svc.store.GetEpoch())
-	es := svc.store.getEpochStore(svc.store.GetEpoch())
-	svc.dagIndexer.Reset(svc.store.GetValidators(), es.table.DagIndex, func(id hash.Event) dag.Event {
-		return svc.store.GetEvent(id)
-	})
+	// es := svc.store.getEpochStore(svc.store.GetEpoch())
+	// svc.dagIndexer.Reset(svc.store.GetValidators(), es.table.DagIndex, func(id hash.Event) dag.Event {
+	// 	return svc.store.GetEvent(id)
+	// })
 
 	// load caches for mutable values to avoid race condition
 	svc.store.GetBlockEpochState()
