@@ -56,7 +56,7 @@ func DefaultConfig(scale cachescale.Func) IndexConfig {
 		Fc: vecfc.DefaultConfig(scale),
 		Caches: IndexCacheConfig{
 			HighestBeforeTimeSize: scale.U(10 * 1024 * 1024),
-			DBCache:               scale.I(10 * opt.MiB),
+			DBCache:               scale.I(100 * opt.MiB),
 		},
 	}
 }
